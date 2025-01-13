@@ -130,3 +130,75 @@ header .image-absolute img {
   font-weight: var(--font-weight-light);
   font-size: 18px;
 }
+
+/*   Mession Styling */
+.mession {
+  background-color: var(--color-black);
+  padding: 50px 0px;
+}
+.info_card {
+  position: relative;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.info_card img {
+  position: absolute;
+  top: 10px;
+  right: -115px;
+  width: 170px;
+}
+.info_card li {
+  margin:0 0 0 20px !important;
+  font-size:  24px;
+  font-weight: var(--font-weight-light);
+  position: relative;
+  padding-left: 20px;
+}
+.info_card li::before {
+  content: '•'; /* You can use a Unicode character or a custom shape */
+  color: var(--color-black);
+  font-size: 24px; /* Control the size */
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.text-orange {
+  color: #FF6B00;
+}
+.border-accent {
+  border-right: 20px solid #FF6B00;
+}
+.border-accent p{
+  font-weight:  var(--font-weight-light);
+}
+.border-accent p span{
+  font-weight:  var(--font-weight-bold);
+}
+.fs-larger {
+  font-size: 48px;
+}
+.solution_content img{
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+}
+
+.why{
+  border-top: 1px solid var(--color-secondary);
+}
+.border_line {
+  margin: 50px 40px;
+}
+.border_line p {
+  font-weight: var(--font-weight-light);
+}
+.border_line p span {
+  font-weight: var(--font-weight-bold);
+}
